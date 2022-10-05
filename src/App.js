@@ -1,12 +1,12 @@
-import './App.css';
+import Container from './components/Container/Container';
 import Profile from './components/Profile/Profile';
 import user from './components/Profile/user.json';
 
 function App() {
   return (
-    <div>
+    <Container>
       <Profile user={user} />
-    </div>
+    </Container>
   );
 }
 
