@@ -1,11 +1,11 @@
 import './App.css';
-
-const message = 'Some message';
+import Profile from './components/Profile/Profile';
+import user from './components/Profile/user.json';
 
 function App() {
   return (
     <div>
-      <h1>{message}</h1>
+      <Profile user={user} />
     </div>
   );
 }
