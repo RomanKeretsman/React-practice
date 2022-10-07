@@ -1,7 +1,7 @@
 import React from 'react';
 import StatisticItem from '../StatisticItem/StatisticItem';
 
-function Statistics({ title, data }) {
+const Statistics = ({ title, data }) => {
   return (
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
@@ -14,6 +14,6 @@ function Statistics({ title, data }) {
       </ul>
     </section>
   );
-}
+};
 
 export default Statistics;
