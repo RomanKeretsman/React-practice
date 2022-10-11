@@ -1,5 +1,5 @@
 import React from 'react';
-import StatisticItem from '../StatisticItem/StatisticItem';
+import StatisticItem from '../StatisticItem/';
 
 const Statistics = ({ title, data }) => {
   return (
